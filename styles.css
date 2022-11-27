@@ -21,7 +21,7 @@ body{
 .main-container{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     overflow-y: auto;
     overflow-x: auto;
     display: flex;
@@ -73,6 +73,7 @@ body{
 }
 
 @media (width < 650px){
+
     .container-text{
         font-size: 60px;
     }
