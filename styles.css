@@ -1,0 +1,108 @@
+:root{
+    --1: #bd8058;
+    --2: #2f2d2d;
+    --3: #cf3535;
+    --4: #524d4d;/*#3b3939*/
+    --5: #4bb953;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: monospace;
+}
+
+body{
+    background-color: var(--1);
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text{
+    font-size: 80px;
+    margin-top: 75px;
+}
+
+.container-text h1{
+    color: var(--2);
+}
+
+.container-text h2{
+    margin-top: 30px;
+    font-size: 1.6em;
+    color: var(--2);
+}
+
+.container-buttons{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container-buttons button{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+
+.container-buttons button:nth-child(1):hover{
+    border: 2px solid var(--3);
+    color: var(--3);
+}
+
+.container-buttons button:nth-child(2):hover{
+    border: 2px solid var(--4);
+    color: var(--4);
+}
+
+.container-buttons button:nth-child(3):hover{
+    border: 2px solid var(--5);
+    color: var(--5);
+}
+
+@media (width < 650px){
+    .container-text{
+        font-size: 60px;
+    }
+
+    .container-buttons button{
+        font-size: 28px;
+    }
+}
+
+@media (width < 500px){
+    .container-text{
+        font-size: 43px;
+    }
+
+    .container-buttons button{
+        font-size: 24px;
+    }
+}
+
+@media (width < 360px){
+    .container-text{
+        font-size: 32px;
+    }
+
+    .container-buttons button{
+        font-size: 20px;
+    }
+}
+
+/*
+text 32
+
+buttons 20
+*/
