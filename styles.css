@@ -71,6 +71,18 @@ body{
     color: var(--5);
 }
 
+
+@media (width <  1930px){
+    .container-text{
+        font-size: 60px;
+    }
+
+    .container-buttons button{
+        font-size: 28px;
+    }
+}
+
+
 @media (width < 650px){
     .container-text{
         font-size: 60px;
