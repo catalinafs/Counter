@@ -71,38 +71,3 @@ body{
     color: var(--5);
 }
 
-@media (width < 650px){
-    .container-text{
-        font-size: 60px;
-    }
-
-    .container-buttons button{
-        font-size: 28px;
-    }
-}
-
-@media (width < 500px){
-    .container-text{
-        font-size: 43px;
-    }
-
-    .container-buttons button{
-        font-size: 24px;
-    }
-}
-
-@media (width < 360px){
-    .container-text{
-        font-size: 32px;
-    }
-
-    .container-buttons button{
-        font-size: 20px;
-    }
-}
-
-/*
-text 32
-
-buttons 20
-*/
