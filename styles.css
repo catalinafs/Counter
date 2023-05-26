@@ -38,19 +38,15 @@ body {
 
 .container-text h2 {
     margin-top: 30px;
-    /* font-size: 20px; */
-    /* font-size: 1.6em; */
     color: var(--6);
 }
 
 .container-buttons {
     width: 100%;
     margin-top: 50px;
-    /* font-size: small; */
 }
 
 .container-buttons button {
-    /* font-size: 30px; */
     border-radius: 10px;
     padding: 4px 10px;
     margin: 10px 20px;
